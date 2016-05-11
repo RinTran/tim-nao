@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="51202890"
+        android:id="@+id/tvID"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textColor="#0e4760"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvID"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="italic"
+        android:textColor="#a19e9e"
+        android:text="Vol.51"
+        android:id="@+id/tvVol" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long Me"
+        android:textSize="25sp"
+        android:singleLine="true"
+        android:textColor="#ac4e51"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvSongName"
+        android:layout_toRightOf="@+id/tvID"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chuyen tinh minh..."
+        android:textColor="#ac4e51"
+        android:id="@+id/tvSongLyric"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/tvID"
+        android:layout_below="@+id/tvSongName"
+        android:textStyle="italic" />
+
+</RelativeLayout>
